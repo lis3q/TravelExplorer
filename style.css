@@ -60,7 +60,7 @@ section {
 /* Home section */
 #home {
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url(images/background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7)), url(https://i.imgur.com/iUECX8p.jpeg);
     background-size: cover;
     background-position: center;
 }
