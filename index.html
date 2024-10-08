@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveness.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <title>TravelExplorer - Travel website</title>
+</head>
+<body>
+    
+    <!-- Home section -->
+    <section id="home">
+
+        <!-- Header -->
+        <header>
+            <!-- Logo -->
+            <a href="#home" aria-label="Home"><div class="logo">TravelExplorer</div></a>
+
+            <!-- Navbar -->
+            <nav>
+                <a href="#home" aria-label="Home">Home</a>
+                <a href="#offers" aria-label="Offers">Offers</a>
+                <a href="#blog" aria-label="Blog">Blog</a>
+                <a href="#about" aria-label="About Us">About Us</a>
+                <a href="#contact" aria-label="Contact">Contact</a>
+            </nav>
+
+            <!-- Mobile menu -->
+            <div class="mobile-menu">
+                <i class="fa-solid fa-bars-staggered open-menu-btn"></i>
+                <i class="fa-solid fa-xmark close-menu-btn"></i>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <div class="hero">
+            <h1>Discover the World with <span>TravelExplorer</span></h1>
+            <p>Your adventure starts here! Explore breathtaking destinations, create unforgettable memories, and embark on the journey of a lifetime.</p>
+            <a href="#offers" aria-label="Offers" class="btn">Our Offers</a>
+        </div>
+
+    </section>
+
+    <!-- Offers section -->
+    <section id="offers">
+
+        <!-- Section heading -->
+        <div class="section-heading">Our Offers</div>
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Offer 1 -->
+            <div class="offer">
+                <div class="image"><img src="images/offers/offer1.jpg"></div>
+                <h2 class="offer-title">Tropical Paradise Gateway</h2>
+                <p class="offer-desc">Escape to the stunning beaches of Bali for a week of relaxation and adventure. Enjoy luxurious accommodations, guided tours, and local culinary experiences.</p>
+                <p class="offer-price"><b>Price:</b> Starting at $1,299</p>
+                <a href="#offers" aria-label="Learn More" class="btn">Learn More</a>
+            </div>
+
+            <!-- Offer 2 -->
+            <div class="offer">
+                <div class="image"><img src="images/offers/offer2.jpg"></div>
+                <h2 class="offer-title">European Cultural Expedition</h2>
+                <p class="offer-desc">Discover the rich history and vibrant culture of Europe. Visit iconic cities like Paris, Rome, and Barcelona on this unforgettable 10-day tour.</p>
+                <p class="offer-price"><b>Price:</b> Starting at $2,499</p>
+                <a href="#offers" aria-label="Learn More" class="btn">Learn More</a>
+            </div>
+
+            <!-- Offer 3 -->
+            <div class="offer">
+                <div class="image"><img src="images/offers/offer3.jpg"></div>
+                <h2 class="offer-title">Exotic Safari <br> Adventure</h2>
+                <p class="offer-desc">Experience the thrill of a lifetime with a safari in Kenya. Witness the majestic wildlife and breathtaking landscapes in their natural habitat.</p>
+                <p class="offer-price"><b>Price:</b> Starting at $3,199</p>
+                <a href="#offers" aria-label="Learn More" class="btn">Learn More</a>
+            </div>
+
+        </div>
+    
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+
+        <!-- Section heading -->
+        <div class="section-heading">About Us</div>
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+                <div class="text">
+                    <p><span>At</span> TravelExplorer, we believe that travel enriches the soul and creates lasting memories. Our team of passionate travel experts is dedicated to helping you find the perfect getaway tailored to your interests and needs. With years of experience and a commitment to exceptional service, we strive to make your travel dreams a reality.</p>
+                </div>
+                <div class="shadow-image">
+                    <div class="image">
+                        <img src="images/about/about1.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row reversed -->
+            <div class="row reversed">
+                <div class="text">
+                    <p><span>Whether</span> you’re seeking a serene beach escape, an adventurous trek through the mountains, or a vibrant cultural experience, we’ve got you covered. We carefully curate destinations and itineraries that go beyond the typical tourist spots, ensuring a unique and personalized journey. Your satisfaction and enjoyment are at the heart of everything we do, as we aim to turn every trip into an unforgettable adventure.</p>
+                </div>
+                <div class="shadow-image shadow2">
+                    <div class="image">
+                        <img src="images/about/about2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row -->
+            <div class="row">
+                <div class="text">
+                    <p><b>From</b> hidden gems off the beaten path to iconic landmarks with a fresh perspective, we aim to inspire curiosity and wonder at every turn. Our expert team is always here to offer insider tips, local insights, and tailored recommendations to make your journey truly special. At TravelExplorer, every adventure is more than just a trip — it’s a transformative experience waiting to unfold.</p>
+                </div>
+                <div class="shadow-image shadow3">
+                    <div class="image">
+                        <img src="images/about/about3.jpg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    
+    </section>
+
+    <!-- Blog section -->
+    <section id="blog">
+
+        <!-- Section heading -->
+        <div class="section-heading">Travel Inspirations</div>
+        <div class="section-desc">Are you looking for travel ideas? Our blog is filled with articles that inspire your next adventure. From hidden gems to popular destinations, we share tips, itineraries, and personal stories from fellow travelers.</div>
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Swiper -->
+            <div class="swiper container">
+                <div class="swiper-wrapper">
+
+                    <!-- Article #1 -->
+                    <div class="swiper-slide article">
+                        <div class="image"><img src="images/blog/blog1.jpg"></div>
+                        <div class="article-info"><p>3 October</p> • <p>6 Min Read</p></div>
+                        <div class="article-title">Top 10 Must-See Destinations for 2024</div>
+                        <a href="#blog" class="btn" aria-label="Read More">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Article #2 -->
+                    <div class="swiper-slide article">
+                        <div class="image"><img src="images/blog/blog2.jpg"></div>
+                        <div class="article-info"><p>2 October</p> • <p>10 Min Read</p></div>
+                        <div class="article-title">How to Travel on a Budget Tips and Tricks</div>
+                        <a href="#blog" class="btn" aria-label="Read More">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Article #3 -->
+                    <div class="swiper-slide article">
+                        <div class="image"><img src="images/blog/blog3.jpg"></div>
+                        <div class="article-info"><p>1 October</p> • <p>9 Min Read</p></div>
+                        <div class="article-title">Unique Experiences You Can’t Miss in Southeast Asia</div>
+                        <a href="#blog" class="btn" aria-label="Read More">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Article #4 -->
+                    <div class="swiper-slide article">
+                        <div class="image"><img src="images/blog/blog4.jpg"></div>
+                        <div class="article-info"><p>6 October</p> • <p>7 Min Read</p></div>
+                        <div class="article-title">Discover the Most Breathtaking Archipelagos</div>
+                        <a href="#blog" class="btn" aria-label="Read More">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Article #5 -->
+                    <div class="swiper-slide article">
+                        <div class="image"><img src="images/blog/blog5.jpg"></div>
+                        <div class="article-info"><p>1 October</p> • <p>8 Min Read</p></div>
+                        <div class="article-title">The Best Festivals Around the World You Can't Miss</div>
+                        <a href="#blog" class="btn" aria-label="Read More">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Article #6 -->
+                    <div class="swiper-slide article">
+                        <div class="image"><img src="images/blog/blog6.jpg"></div>
+                        <div class="article-info"><p>1 October</p> • <p>5 Min Read</p></div>
+                        <div class="article-title">What to Bring for Every Type of Adventure</div>
+                        <a href="#blog" class="btn" aria-label="Read More">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="swiper-pagination-unique"></div>
+            
+            <div class="swiper-button-prev-unique swiperBtn"><i class="fa-solid fa-arrow-left"></i></div>
+            <div class="swiper-button-next-unique swiperBtn"><i class="fa-solid fa-arrow-right"></i></div>
+
+        </div>
+    
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+
+        <!-- Section heading -->
+        <div class="section-heading">Get In Touch</div>
+        <div class="section-desc">Have questions or need assistance planning your trip? We're here to help! Fill out the contact form below, and our friendly team will get back you shortly.</div>
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Form -->
+            <form method="POST" class="form">
+                <input type="text" placeholder="Name" required maxlength="70">
+                <input type="email" placeholder="Email" required maxlength="50">
+                <input type="tel" placeholder="Phone Number" required maxlength="20">
+                <textarea placeholder="Message" required maxlength="300"></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+
+        </div>
+    
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <!-- Container -->
+        <div class="footer-container">
+
+            <!-- Main column -->
+            <div class="col">
+                <h1>TravelExplorer</h1>
+                <p>Your adventure starts here!</p>
+                <div class="icons">
+                    <a href="#!" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#!" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#!" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#!" aria-label="Youtube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Quick Links column -->
+            <div class="col">
+                <h2>Quick Links</h2>
+                <div class="links">
+                    <a href="#home" aria-label="Home">Home</a>
+                    <a href="#offers" aria-label="Offers">Offers</a>
+                    <a href="#blog" aria-label="Blog">Blog</a>
+                    <a href="#about" aria-label="About Us">About Us</a>
+                    <a href="#contact" aria-label="Contact">Contact</a>
+                </div>
+            </div>
+
+            <!-- Contact column -->
+            <div class="col">
+                <h2>Contact</h2>
+                <div class="links">
+                    <a href="#!" aria-label="Email">support@travelexplorer.com</a>
+                    <a href="#!" aria-label="Phone number">+48 123-456-789</a>
+                    <a href="#!" aria-label="Address">ul. Podróżników 123, 00-001 Warsaw</a>
+                </div>
+            </div>
+
+            <!-- Policies & Terms column -->
+            <div class="col">
+                <h2>Policies & Terms</h2>
+                <div class="links">
+                    <a href="#!" aria-label="Privacy Policy">Privacy Policy</a>
+                    <a href="#!" aria-label="Terms of Service">Terms of Service</a>
+                    <a href="#!" aria-label="Cookie Policy">Cookie Policy</a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

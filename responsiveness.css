@@ -1,0 +1,202 @@
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+
+    /* Main settings */
+    section {
+        padding: 30px 20px;
+    }
+    .section-heading {
+        font-size: 28px;
+    }
+    .section-desc {
+        width: 100%;
+        font-size: 15px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 30px;
+    }
+    
+    /* Header */
+    #home header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 20px;
+        background: var(--black);
+        z-index: 999;
+    }
+    #home header .logo {
+        font-size: 22px;
+    }
+    #home header nav {
+        position: absolute;
+        top: 47px;
+        left: 0;
+        width: 100%;
+        background: var(--white);
+        padding: 30px 20px;
+        flex-direction: column;
+        transform: translateX(-200%);
+        transition: all .2s ease-in-out;
+        box-shadow: 0 3px 12px 0 #00000021;
+    }
+    #home header nav a {
+        color: var(--black);
+    }
+    #home header nav.active {
+        transform: translateX(0);
+    }
+    #home header .mobile-menu {
+        display: block;
+    }
+    #home header .close-menu-btn {
+        display: none;
+    }
+
+    /* Hero */
+    #home .hero {
+        width: 100%;
+        margin: 30% auto 0 auto;
+    }
+    #home .hero h1 {
+        font-size: 42px;
+    }
+    #home .hero p {
+        font-size: 16px;
+    }
+
+    /* Offers section */
+    #offers .container {
+        gap: 30px;
+    }
+    #offers .offer {
+        width: 80%;
+        height: 500px;
+    }
+    #offers .offer:hover {
+        transform: none;
+    }
+    #offers .offer .image {
+        height: 180px;
+    }
+    #offers .offer .offer-title {
+        font-size: 22px;
+    }
+    #offers .offer .offer-desc {
+        font-size: 14px;
+    }
+    #offers .offer .offer-price {
+        font-size: 14px;
+    }
+    #offers .offer .btn {
+        font-size: 14px;
+        padding: 9px 32px;
+    }
+
+    /* About section */
+    #about .container {
+        gap: 70px;
+    }
+    #about .row {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    #about .row.reversed {
+        flex-direction: column-reverse;
+    }
+    #about .row .text {
+        width: 100%;
+    }
+    #about .row .shadow-image {
+        width: 100%;
+        height: 278px;
+    }
+    #about .row .image img {
+        width: 100%;
+        transform: translate(0, -8px);
+    }
+    #about .row .image img:hover {
+        transform: scale(0.9);
+    }
+    #about .row .text p {
+        font-size: 16px;
+        text-align: justify;
+    }
+    #about .row .text span {
+        font-size: 18px;
+    }
+
+    /* Blog section */
+    #blog .swiper {
+        width: 100%;
+    }
+    #blog .article .image {
+        height: 220px;
+        width: 100%;
+    }
+    #blog .article .article-info {
+        font-size: 13px;
+    }
+    #blog .article .article-title {
+        font-size: 22px;
+    }
+    #blog .article .btn {
+        font-size: 13px;
+    }
+    .swiperBtn {
+        display: none;
+    }
+    .swiper-pagination-unique {
+        margin-top: -80px;
+    }
+
+    /* Contact section */
+    #contact .form input,
+    #contact .form textarea {
+        width: 100%;
+        font-size: 14px;
+        height: 42px;
+    }
+    #contact .form textarea {
+        height: 200px;
+    }
+    #contact .form input[type="submit"] {
+        height: 48px;
+        font-size: 15px;
+    }
+
+    /* Footer */
+    .footer .footer-container {
+        flex-direction: column;
+        gap: 60px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer .col {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer .col .icons {
+        justify-content: center;
+    }
+    .footer .col h1 {
+        font-size: 28px;
+    }
+    .footer .col p {
+        font-size: 16px;
+    }
+    .footer .col .icons a {
+        font-size: 16px;
+    }
+    .footer .col h2 {
+        font-size: 18px;
+    }
+    .footer .col .links a {
+        font-size: 14px;
+    }
+
+}
