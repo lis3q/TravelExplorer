@@ -45,3 +45,13 @@ closeMenuBtn.addEventListener("click", () => {
     closeMenuBtn.style.display = "none"
     navbar.classList.remove("active");
 })
+
+// Closing mobile navbar when link clicked
+const links = document.querySelectorAll("header nav a");
+links.forEach(link => {
+    link.addEventListener("click", () => {
+        openMenuBtn.style.display = "block";
+        closeMenuBtn.style.display = "none"
+        navbar.classList.remove("active");
+    })
+})
